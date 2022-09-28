@@ -1,37 +1,26 @@
-# {{ New Group Name }} {{ New Group Type }} Charter
+# Documentation SIG Charter
 
-## Directions for creating a charter
-The information in this file should be created as part of the group formation and approved by your sponsoring group.  See the [Chairs Best Practices policy](https://docs.google.com/document/d/1rtXskVd7YyFq74tQ2OrInyM_-OQa228R5UZs5Pm3Vz0/) for more details.
+The Documentation SIG provides a global forum for technical and strategic input into the activities and technologies being leveraged to enable the seamless creation and distribution of RISC-V documentation.
 
-A good Task Group (TG) charter describes how it achieves filling in a gap defined by the Special Interest Group (SIG) or Committee that spawned it (directly or dotted line). It lists the specific small set of  deliverables it will deliver.
+## Definitions
 
-A SIG is an extension of a Committee, in that its only deliverables are strategy, gaps, and prioritizations, and helping spawn other SIGs or TGs to fill the gaps. A good SIG charter spells out the small set of topic areas their strategy will address along with its responsibilities as laid out in this bullet.
+## Background
 
-In the next section is a raw template.  Delete the section header and substitute appropriate text in for [ALL CAPS ITEMS AS DESCRIBED].
+The initiation of the overall RISC-V project and documentation of the core Unprivileged and Privileged Instruction Set Architectures consisted of a standard set of two documents authored in the LaTex markup language.  The LaTeX markup language, although extremely powerful and a standard for scientific documentation in academia, brings with it a level of complexity and conversion limitations that make it less than ideal for promotion of documentation contributions from the wider community as well as distribution of documentation in various formats such as PDF and HTML.  The RISC-V team initiated a project to convert the current LaTeX based documentation to the more flexible markup language, ASCIIDOC.  This effort has resulted in a documentation toolchain utilizing Pandoc for conversion of asciidoc documentation to various formats.
 
-**Delete this whole section when done.**
+## Scope
 
-## Raw template
+The scope of the Documentation SIG will include:
 
-The {{ New Group Name }} {{ New Group Type }} will [OVERALL MISSION STATEMENT in 2-3 
-SENTENCES]
+* LaTeX Conversion including the Unprivileged ISA specification, Privileged ISA specification, and templated versions of all extension documentation.
 
-[THIS PARAGRAPH IS OPTIONAL]
-The [TERM 1] IS [DEFINITION 1].  [EXPLANATION  OF IMPORTANCE OF TERM 1]. [MORE TERMS AND DEFINITIONS AS NEEDED]
+* A CI/CD effort including automated specification building leveraging GitHub workflows, ISA Manual PR structure, ISA Manual Build & Release, and a RISC-V glossary.
 
-[BACKGROUND INFORMATION ABOUT RELEVANCE OF GROUP/TECHNOLOGY]
+* A Readability effort including management of errata/changelogs/versioning, organization of documentation into books, standardization of documentation introductions, navigation, prose and style, and ISA specific text types (SAIL).
 
-The {{ New Group Name }} {{ New Group Type }} will [DELIVER SOMETHING] [WITH THESE ATTRIBUTES]:
+* Development and maintenance of the documentation repository including RISC-V specification publishing, repository navigation and a whitepapers workflow.
 
- - [ATTRIBUTE 1]
- - [ATTRIBUTE 2]
- - [... AS NEEDED]
+## Deliverables
 
-[THIS PARAGRAPH AND LIST ARE OPTIONAL, ESPECIALLY IF THE LIST IS EMPTY]
-The following items are presently not planned to be delivered as part of this work, but may be considered in future versions:
-
- 1. [FEATURE 1]
- 1. [FEATURE 2]
- 1. [... AS NEEDED]
-
-To achieve its goals, the {{ New Group Name }} {{ New Group Type }}, will interact with the following groups: [GROUP NAME 1] [GROUP TYPE 1], [GROUP NAME 2] [GROUP TYPE 2], [...] and [GROUP NAME N] [GROUP TYPE N]. 
+The known deliverables at this time are the converted Unprivileged and Privileged ISA specification to asciidoc format.
+.
