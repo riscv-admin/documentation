@@ -23,4 +23,48 @@ The scope of the Documentation SIG will include:
 ## Deliverables
 
 The known deliverables at this time are the converted Unprivileged and Privileged ISA specification to asciidoc format.
+
+2024 Goals inclue:
+
+* Community - continuously improve spec quality
+* Consistency - the specifications are "one voice"
+* Simplicity - the guidelines assist with process
+* Efficiency - the tools enable you to work more seamlessly
+* Predictability - the publishing timeline and current status is available
+
+Proposed Features include:
+
+* Editing
+** Update docs template
+** Edit doc to be more "one voice"
+** Develop styling for HTML
+
+* Tools
+** HTML framework & hosting
+** Vale, linters
+** HitHub checks
+** Stale bot for GitHub
+** Machine cunsumable specs
+** SAIL code in AsciiDoc
+** Acronym expander
+
+*Community
+** Doc Sig startup
+** Request help from Docs Team
+** Create documentation office hours
+** Relationship with RISE
+
+* Guidelines
+** Writing guidelines
+** How do I write and extension?
+** Write for accessibility and translation
+** Process for creating graphics
+** Naming conventions and versioning
+
+* Process
+** How do we work?
+** Metrics tracking
+** Develop "library" web page
+** Repo issue/PR cleanup
+** Glossary
 .
