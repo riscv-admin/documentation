@@ -48,7 +48,7 @@ Proposed Features include:
 ** SAIL code in AsciiDoc
 ** Acronym expander
 
-*Community
+* Community
 ** Doc Sig startup
 ** Request help from Docs Team
 ** Create documentation office hours
